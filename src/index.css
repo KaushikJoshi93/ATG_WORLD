@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.option-grp::after{
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    content: "";
+    width: calc(1rem*4);
+    height: 2px;
+    background-color: rgb(136, 132, 132);
+}
